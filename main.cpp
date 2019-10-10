@@ -1,5 +1,6 @@
 #include<iostream>
 #include"shared_ptr.h"
+#include"complex.h"
 
 class Shape
 {
@@ -29,5 +30,13 @@ int main()
         mp->draw();
     }
     std::cout << "Out of scope but still destructor not called..." << '\n';
+
+    mystd::complex<double> c1(4, 8);
+    std::cout << c1 << std::endl;
+    mystd::complex<double> c2(12, 16);
+    std::cout << c2 << std::endl;
+    std::cout << c1 + c2 << std::endl;
+    std::cout << *c1 << std::endl;
+    std::cout << *c2 << std::endl;
     return 0;
 }

@@ -31,6 +31,7 @@
 *.out
 *.app
 
+# CMake files
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -42,3 +43,6 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+# vim temporary files
+*.*sw*

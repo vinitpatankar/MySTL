@@ -19,6 +19,7 @@ project(FractalMandelbrot)
 add_executable(
     main_exe
     shared_ptr.cpp
+    complex.cpp
     main.cpp
     )
 
